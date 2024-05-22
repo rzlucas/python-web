@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: collections-mapping
+Version: 0.0.1
+Summary: Specialized container datatypes providing dict-like key-value mapping objects
+Home-page: https://github.com/imyizhang/collections-mapping
+Download-URL: https://github.com/imyizhang/collections-mapping
+Author: Yi Zhang
+Author-email: yizhang.dev@gmail.com
+License: MIT
+Keywords: key-value,dict,collections,mapping,serialization
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# collections-mapping
+
+collections-mapping are
+
+* specialized container datatypes providing dict-like key-value mapping objects
+
+
+
+## Quickstart
+
+```python
+import collections_mapping
+
+m = collections_mapping.Mapping()
+
+m['key'] = 'value'
+```
+
+
+
+### Install collections-mapping
+
+```python
+$ pip install collections-mapping
+```
+
+
