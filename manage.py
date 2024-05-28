@@ -18,7 +18,7 @@ def runserver():
 # Puedes agregar más comandos aquí, por ejemplo:
 # @cli.command()
 # def initdb():
-#     """Inicializa la base de datos."""
+#     """python manage.py runserver | Para inicializa la base de datos."""
 #     # ... (tu código para inicializar la base de datos)
 
 if __name__ == '__main__':
@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
 @cli.command()
 def stop():
-    """Detiene el servidor."""
+    """CTRL+C Detiene el servidor."""
     # Aquí debes implementar la lógica para detener el servidor de forma segura.
     # Puedes usar una variable global para indicar que el servidor debe detenerse,
     # o enviar una señal de interrupción al proceso.
