@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Mi primera página web</title>
-</head>
-<body>
-  <h1>¡Hola, mundo!</h1>
-  <p>Este es un párrafo de texto.</p>
-  <a href="https://www.google.com">Enlace a Google</a>
-  <script type="text/javascript" src="{{ url_for('static', filename='js/main.js')}}"></script>
+{% extends 'layout.html' %}
 
-</body>
-</html>
+{% block container %}
+   <h2>Hola desde el Index</h2>
+{% endblock %}
+
+
+{% block footer %}
+{% endblock %}

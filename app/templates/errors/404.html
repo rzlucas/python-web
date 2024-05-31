@@ -1,14 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404 - Página no encontrada</title>
-    <link rel="stylesheet" href="../static/css/error404.css">
-</head>
-<body>
-    <div class="container">
-        <img src="../static/images/error404.png" alt="Página no encontrada">
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+  Error 404
+{% endblock %}
+
+{% block navbar %}
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class = "row">
+        <div class = "col-md-12">
+            <h2>404 Not found</h2>
+            <p>Lo sentimos, hay un error. Página no encontrada</p>
+
     </div>
-</body>
-</html>
+
+  </div>
+  
+{% endblock %}
+
