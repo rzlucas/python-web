@@ -1,4 +1,5 @@
 from flask import Blueprint, render_template
+from .forms import LoginForm
 
 page = Blueprint('page', __name__)
 
@@ -11,3 +12,11 @@ def page_not_found(error):
 @page.route('/')
 def index():
     return render_template('index.html', title='Index')
+
+@page.route ('/login')
+def login():
+    form = LoginForm()
+
+    return render_template('auth/login.html', title='Login', form=form)
+
+
